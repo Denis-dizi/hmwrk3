@@ -1,5 +1,11 @@
 .fizzbuzz{
     background-color: coral;
+    background-color: aliceblue;
+    border: 3px solid black;
+    grid-area: header-cont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fizz{
     background-color: green;
