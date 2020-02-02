@@ -1,4 +1,6 @@
 console.log("started Fizz Buzz");
+const fb = document.getElementById("demo");
+fb = fizzBuzz;
 //====v1 =============================================
 const fizzBuzz = num => {
     for(let i = 1; i <= num; i++) {
@@ -17,6 +19,7 @@ const fizzBuzz = num => {
     }
   }
   fizzBuzz(20);
+  fb = fizzBuzz;
 //====v2================================================
 //   for (var i=1; i <= 20; i++)
 // {
